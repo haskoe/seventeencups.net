@@ -1,2 +1,3 @@
 # SeventeenCups.net
-This is the source code for [my personal website](https://www.seventeencups.net). It uses [Zola](https://github.com/getzola/zola), a pretty cool Rust static site generator. Every time a commit is pushed to this repository, Netlify regenerates the site and publishes it.
+This is the source code for [my personal website](https://www.haskoe.dk). 
+Forked from https://github.com/17cupsofcoffee/seventeencups.net

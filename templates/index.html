@@ -10,7 +10,7 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}</title>
     
     <meta name="description" content="{% if page.content %}{{ page.content | safe | striptags | truncate }}{% else %}{{ config.description }}{% endif %}">
-    <meta name="author" content="Joe Clay">
+    <meta name="author" content="Henrik Askøe">
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}">
     <meta property="og:site_name" content="{{ config.title }}">
@@ -43,7 +43,7 @@
         <header class="site-header">
             <div class="site-header__logo">
                 <a href="{{ get_url(path="/") }}">
-                    <img src="{{ get_url(path="favicon-128x128.png") }}" alt="Joe Clay" width="128" height="128">
+                    <img src="{{ get_url(path="favicon-128x128.png") }}" alt="Henrik Askøe" width="128" height="128">
                 </a>
             </div>
 
@@ -53,10 +53,7 @@
                 </a>
 
                 <p class="site-header__bio">
-                    dev, musician, coffee disposal unit<br>
-                    <a href="https://pronoun.is/they/them" class="site-header__pronouns">
-                        they/them
-                    </a>
+                    IT-konsulent, cykelnørd i min fritid<br>
                 </p>
             </div>
 
@@ -75,7 +72,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/17cupsofcoffee" aria-label="GitHub">
+                        <a href="https://github.com/haskoe" aria-label="GitHub">
                             <svg class="icon icon-github" aria-hidden="true">
                                 <use xlink:href="{{ get_url(path="symbol-defs.svg") }}#icon-github"></use>
                             </svg>
@@ -111,7 +108,7 @@
         </main>
 
         <footer class="site-footer">
-            © 2017-{{ now() | date(format="%Y") }} <a href="{{ get_url(path="/") }}">Joe Clay</a>. Powered by <a href="https://www.getzola.org/">Zola</a>.
+            © 2017-{{ now() | date(format="%Y") }} <a href="{{ get_url(path="/") }}">Henrik Askøe</a>. Powered by <a href="https://www.getzola.org/">Zola</a>.
             <br>
             This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
             <br>

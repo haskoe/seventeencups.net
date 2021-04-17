@@ -1,9 +1,8 @@
-title = "Joe Clay"
+title = "Henrik Askøe"
 description = """
-Joe Clay's personal website, blog and portfolio. \
-Features articles/tutorials about programming and music. \
+Henrik Askøe's personal website.
 """
-base_url = "https://www.seventeencups.net"
+base_url = "https://www.haskoe.dk"
 compile_sass = true
 highlight_code = true
 generate_feed = true
